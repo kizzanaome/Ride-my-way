@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RIDE-MY-WAY</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css and js/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.topnav {    background-color: #333;
+    overflow: hidden;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  background-size: auto;
+  background-image:url(images/cars.jpg);
+  background-repeat: repeat;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  background-image: url(images/ride.jpg);
+  background-repeat: repeat;
+}
+#container #content div {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	appearance: menu-item;
+	color: #0CC;
+}
+</style>
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+if (field.defaultValue == field.value) field.value = '';
+else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="header_panel">
+    <div class="topnav"> <a class="topnav" href="index.html">Home</a> <a href="#news">Login</a> <a href="rigister.html" class="active">Signup</a></div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div id="search_box"></div>
+  </div>
+  <!-- end of header panel --><!-- end of banner panel -->
+  <div id="content_top"></div>
+  <div id="content">
+    
+    <form action="login.html">
+  <div class="imgcontainer">SIGN UP</div>
+  <div class="container">
+    <p>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      
+      </p>
+       <p>
+      <label for="uname"><b>email</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      
+      </p>
+    <p>
+      <label for="psw"><b>Password</b></label>
+      <input name="psw" type="password" required="required" placeholder="Enter Password" value="" />
+      
+    </p>
+    <button type="submit">Signup</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Login</button>
+  </div>
+    </form></div>
+  </div>
+  <div id="footer"></div>
+  <!-- end of footer -->
+</div>
+<!-- end of container -->
+</body>
+</html>

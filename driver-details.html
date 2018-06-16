@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC >
+<html>
+<head>
+<title>RIDE-MY-WAY</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css and js/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.topnav {    background-color: #333;
+    overflow: hidden;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  background-size: auto;
+  background-image:url(images/cars.jpg);
+  background-repeat: repeat;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  background-image: url(images/ride.jpg);
+  background-repeat: repeat;
+}
+</style>
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+if (field.defaultValue == field.value) field.value = '';
+else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="header_panel">
+    <div class="topnav"> <a class="active" href="#home">All Rides</a><a href="#contact">All Rides</a> <a href="#about">Logout</a></div>
+    <p>&nbsp;</p>
+    <p align="center"><dfn><strong><em>DRIVERS DETAILS</em></strong></dfn> </p>
+    <div id="search_box"></div>
+  </div>
+  <!-- end of header panel --><!-- end of banner panel -->
+  <div id="content_top"></div>
+  <div id="content">
+    <table width="866" height="314" border="1">
+      <tr>
+        <th width="149" height="60" scope="col"><strong>Id</strong></th>
+        <th width="126" scope="col"><strong>2</strong></th>
+      </tr>
+      <tr>
+        <td><strong>Origin</strong></td>
+        <td>Mubende</td>
+      </tr>
+      <tr>
+        <td><strong>Destination</strong></td>
+        <td><strong>kampala</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Time</strong></td>
+        <td><strong>2:00am</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Driver Name</strong></td>
+        <td><strong>Naome</strong></td>
+      </tr>
+    </table>
+    <form id="form1" name="form1" method="post" action="">
+      <button type="submit"></button> 
+      <p>&nbsp;</p>
+      </form>
+    <p>&nbsp;</p>
+  </div>
+  <div id="footer"></div>
+  <!-- end of footer -->
+</div>
+<!-- end of container -->
+</body>
+</html>

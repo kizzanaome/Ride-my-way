@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RIDE-MY-WAY</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css and js/style.css" rel="stylesheet" type="text/css" />
+<style>
+.topnav {    background-color: #333;
+    overflow: hidden;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  background-size: auto;
+  background-image:url(images/cars.jpg);
+  background-repeat: repeat;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  background-image: url(images/ride.jpg);
+  background-repeat: repeat;
+}
+
+</style>
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+if (field.defaultValue == field.value) field.value = '';
+else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="header_panel">
+    <div class="topnav"><a href="aii-rides.html" class="active"> Rides-offers</a><a href="index.html">Logout</a></div>
+    <p align="center"> <dfn><strong><em>RIDE OFFERS FROM DRIVERS</em></strong></dfn> </p>
+    <div id="search_box"></div>
+  </div>
+  <!-- end of header panel --><!-- end of banner panel -->
+  <div id="content_top"></div>
+  <div id="content">
+    <table width="811" height="378" border="1">
+      <tr class="topnav">
+        <th width="125" height="60" scope="col"><strong class="topnav">Driver's Name</strong></th>
+        <th width="226" scope="col"><strong>origin</strong></th>
+        <th width="148" scope="col"><strong>destination</strong></th>
+        <th width="210" scope="col">PRICE(SHS)</th>
+        <th width="210" scope="col">Request for ride</th>
+      </tr>
+      <tr>
+        <td height="41"><strong>john</strong></td>
+        <td><strong>entebbe</strong></td>
+        <td><strong>kampala</strong></td>
+        <td>1000</td>
+        <td class="topnav"><a href="ride-offer.html">REQUEST FOR RIDE</a></td>
+      </tr>
+      <tr>
+        <td><strong>Ronald</strong></td>
+        <td><strong>kawuku</strong></td>
+        <td><strong>kitooro</strong></td>
+        <td>20000</td>
+        <td><span class="topnav"><a href="ride-offer.html" class="topnav">REQUEST FOR A RIDE</a></span></td>
+      </tr>
+      <tr>
+        <td height="69"><strong>pk</strong></td>
+        <td><strong>lira</strong></td>
+        <td><strong>kajjansi</strong></td>
+        <td>30000</td>
+        <td class="topnav"><a href="ride-offer.html">REQUEST FOR RIDE</a></td>
+      </tr>
+      <tr>
+        <td><strong>gabi</strong></td>
+        <td><strong>mbaale</strong></td>
+        <td><strong>mityana</strong></td>
+        <td>40000</td>
+        <td class="topnav"><a href="ride-offer.html">REQUEST FOR RIDE</a></td>
+      </tr>
+      <tr>
+        <td height="78"><strong>ken</strong></td>
+        <td><strong>nakawa</strong></td>
+        <td><strong>sembabule</strong></td>
+        <td>50000</td>
+        <td class="topnav"><a href="rigister.html">REQUSET FOR A RIDE</a></td>
+      </tr>
+    </table>
+    <p class="topnav">&nbsp;</p>
+  </div>
+  <div id="footer"></div>
+  <!-- end of footer -->
+</div>
+<!-- end of container -->
+</body>
+</html>

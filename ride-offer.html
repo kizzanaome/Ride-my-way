@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>RIDE-MY-WAY</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css and js/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.topnav {    background-color: #333;
+    overflow: hidden;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  background-size: auto;
+  background-image:url(images/cars.jpg);
+  background-repeat: repeat;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  background-image: url(images/ride.jpg);
+  background-repeat: repeat;
+}
+#container #content div {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	appearance: menu-item;
+	color: #0CC;
+}
+</style>
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+if (field.defaultValue == field.value) field.value = '';
+else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="header_panel">
+    <div class="topnav"> <a class="active" href="home.html">Home</a> <a href="Login.html">Login</a><a href="#about">Request for Ride</a></div>
+    <div id="search_box"></div>
+  </div>
+  <!-- end of header panel --><!-- end of banner panel -->
+  <div id="content_top"></div>
+  <div id="content">
+    
+    <form action="ride_details.html">
+  <div class="imgcontainer">REQUEST TO JOIN RIDE</div>
+  <div class="container">
+    <p>
+      <label for="uname"><b>CUSTOMER NAME</b></label>
+      <input type="text" placeholder="CUSTOMER NAME" name="uname" required>
+      
+      </p>
+      <p>
+      <label for="uname"><b>CURRENT LOCATION</b></label>
+      <input type="text" placeholder="CURRENT LOCATION" name="uname" required>
+      
+      </p>
+     
+    <p>
+      <label for="psw"><b>Destination</b></label>
+      <input type="password" placeholder="Destination" name="psw" required>
+      
+    </p>
+      <p>
+      <label for="psw"><b>Time</b></label>
+      <input type="password" placeholder="Time" name="psw" required>
+      
+    </p>
+    <button type="submit" class="topnav">SEND REQUEST</button>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1"></div>
+    </form></div>
+  </div>
+  <div id="footer"></div>
+  <!-- end of footer -->
+</div>
+<!-- end of container -->
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>RIDE-MY-WAY</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css and js/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.topnav {    background-color: #333;
+    overflow: hidden;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  background-size: auto;
+  background-image:url(images/cars.jpg);
+  background-repeat: repeat;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  background-image: url(images/ride.jpg);
+  background-repeat: repeat;
+}
+</style>
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+if (field.defaultValue == field.value) field.value = '';
+else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="header_panel">
+    <div class="topnav"><a href="ride_details.html">All Rides</a> <a href="profile.html" class="active">Profile</a> <a href="home.html">Logout</a></div>
+    <p>&nbsp;</p>
+    <p align="center"><em><strong><dfn>LIST OF REQUESTED RIDES</dfn></strong></em></p>
+    <div id="search_box"></div>
+  </div>
+  <!-- end of header panel --><!-- end of banner panel -->
+  <div id="content_top"></div>
+  <div id="content">
+    <table width="640" height="316" border="1">
+      <tr>
+        <th width="149" height="60" scope="col"><strong>Drivers Name</strong></th>
+        <th width="297" scope="col"><strong>origin</strong></th>
+        <th width="172" scope="col"><strong>destination</strong></th>
+        <th width="172" scope="col">view Ride status</th>
+      </tr>
+      <tr>
+        <td height="41"><strong>john</strong></td>
+        <td><strong>entebbe</strong></td>
+        <td><strong>kampala</strong></td>
+        <td class="topnav"><a href="driver-details.html">ACCEPTED</a></td>
+      </tr>
+      <tr>
+        <td><strong>Ronald</strong></td>
+        <td><strong>kawuku</strong></td>
+        <td><strong>kitooro</strong></td>
+        <td>REJECTED</td>
+      </tr>
+      <tr>
+        <td><strong>pk</strong></td>
+        <td><strong>lira</strong></td>
+        <td><strong>kajjansi</strong></td>
+        <td>REJECTED</td>
+      </tr>
+      <tr>
+        <td><strong>gabi</strong></td>
+        <td><strong>mbaale</strong></td>
+        <td><strong>mityana</strong></td>
+        <td>ACCEPTED</td>
+      </tr>
+      <tr>
+        <td height="78"><strong>ken</strong></td>
+        <td><strong>nakawa</strong></td>
+        <td><strong>sembabule</strong></td>
+        <td>REJECTED</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <p align="center"><em><strong><dfn>LIST OF RIDES</dfn></strong></em> APPROVED</p>
+    <table width="868" height="316" border="1">
+      <tr>
+        <th width="149" height="60" scope="col"><strong>Driver's Name</strong></th>
+        <th width="297" scope="col"><strong>origin</strong></th>
+        <th width="196" scope="col"><strong>destination</strong></th>
+      </tr>
+      <tr>
+        <td height="41"><strong>john</strong></td>
+        <td><strong>entebbe</strong></td>
+        <td><strong>kampala</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Ronald</strong></td>
+        <td><strong>kawuku</strong></td>
+        <td><strong>kitooro</strong></td>
+      </tr>
+      <tr>
+        <td><strong>pk</strong></td>
+        <td><strong>lira</strong></td>
+        <td><strong>kajjansi</strong></td>
+      </tr>
+      <tr>
+        <td><strong>gabi</strong></td>
+        <td><strong>mbaale</strong></td>
+        <td><strong>mityana</strong></td>
+      </tr>
+      <tr>
+        <td height="78"><strong>ken</strong></td>
+        <td><strong>nakawa</strong></td>
+        <td><strong>sembabule</strong></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <table width="816" height="109" border="1">
+      <tr>
+        <th width="149" height="60" scope="col">RIDES GIVEN</th>
+        <th width="388" scope="col"><strong>10</strong></th>
+      </tr>
+      <tr>
+        <td height="41"><strong> RIDES TAKEN</strong></td>
+        <td><strong>5</strong></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+  <div id="footer"></div>
+  <!-- end of footer -->
+</div>
+<!-- end of container -->
+</body>
+</html>
