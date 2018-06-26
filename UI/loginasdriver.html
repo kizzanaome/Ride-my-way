@@ -2,20 +2,13 @@
 <html>
 <head>
 <title>RIDE-MY-WAY</title>
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css and js/style.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 .topnav {    background-color: #333;
     overflow: hidden;
 }
-#container #content div {
-	font-family: "Comic Sans MS", cursive;
-	font-size: 36px;
-	appearance: menu-item;
-	color: #63C;
-	
-}
-	
+
 body {
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding: 0;
@@ -32,6 +25,12 @@ body {
   background-image: url(images/ride.jpg);
   background-repeat: repeat;
 }
+#container #content div {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	appearance: menu-item;
+	color: #0CC;
+}
 </style>
 <script language="javascript" type="text/javascript">
 function clearText(field)
@@ -44,17 +43,31 @@ else if (field.value == '') field.value = field.defaultValue;
 <body>
 <div id="container">
   <div id="header_panel">
-    <p class="topnav">RIDE-MY-WAY</p>
-    <div class="topnav"> <a class="active" href="index.html">Home</a> <a href="Login.html">Login as passenger </a><a href="loginasdriver.html">Login as driver </a> <a href="rigister.html">Signup</a></div>
+    <div class="topnav"> <a class="topnav" href="index.html">Home</a> <a href="Login.html" class="active">Login</a> <a href="rigister.html">Signup</a></div>
     <div id="search_box"></div>
   </div>
   <!-- end of header panel --><!-- end of banner panel -->
   <div id="content_top"></div>
   <div id="content">
-    <div align="center">RIDE MY WAY<br />
-      Ride-my App is a carpooling application that provides drivers <br />
-      with the abilityto create ride offers and passengers <br />
-      to join available ride offers.</div>
+    
+    <form action="driver.html">
+  <div class="imgcontainer">LOGIN IN</div>
+  <div class="container">
+    <p>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      
+      </p>
+    <p>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      
+    </p>
+    <button type="submit" value="submit">Login</button>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1"></div>
+    </form></div>
   </div>
   <div id="footer"></div>
   <!-- end of footer -->
