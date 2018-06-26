@@ -18,6 +18,7 @@ class TestRequestsForRides(unittest.TestCase):
         request= RequestForRide(1,"ride_id","name","accepted")
         request.create_request()
         self.assertEqual(len(requests),1)
+        
 
     
 
