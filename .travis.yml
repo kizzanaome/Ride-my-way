@@ -4,7 +4,4 @@ python:
 install:
     "pip install -r requirements.txt"
 script:
-    - nosetests --with-coverage --cover-erase --cover-package=app/ && coverage report
-after_success:
-    - "coveralls"
-    
+    python test_create_ride_and_request.py
